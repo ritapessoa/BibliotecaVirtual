@@ -1,9 +1,3 @@
-## Equipe
-- **Amarílis Selene Nunes Silva**: 21511365
-- **Arthur Ruman de Bortoli**: 23022752
-- **Fabiula Augusta dos Santos**: 21508518
-- **Renan de Andrade Joaquim**: 21500398
-- **Rita de Cássia Pessoa da Rosa**: 19506996
 
 ## Biblioteca Virtual Universitária
 Esse projeto é um sistema web de biblioteca digital com acesso a
@@ -46,11 +40,11 @@ E dentro dessa pasta “TESTE” que deverá ser criada por vocês, também deve
 Esse projeto é um trabalho em andamento, será adicionado algumas exceções no código para que ele atenda melhor aos casos de uso e será feita uma melhoria no design do sistema.
 
 ## Colaboradores
-* Rita de Cássia - ritapessoa
-* Fabiula Santos - fabiulasantos
-* Renan Joaquim - rejoaquim
-* Amarílis Selene - amarilisselene
-* Arthur Ruman - ArthurRuman
+- **Amarílis Selene Nunes Silva**: 21511365
+- **Arthur Ruman de Bortoli**: 23022752
+- **Fabiula Augusta dos Santos**: 21508518
+- **Renan de Andrade Joaquim**: 21500398
+- **Rita de Cássia Pessoa da Rosa**: 19506996
 
 
 
