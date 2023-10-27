@@ -38,7 +38,19 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-light" style="background-color: #b3b3b3;"> 
+    <nav class="navbar navbar-light" style="background-color: #b3b3b3;">  
+    <a class="navbar-brand" href="#">Biblioteca Digital Universitária</a>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#adicionados">Adicionados</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#mdo">@mdo</a>
+    </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
       <div class="dropdown-menu">
@@ -54,18 +66,6 @@
         <a class="dropdown-item" href="login.php">Sair</a>
 
       </div>
-    </li> 
-    <a class="navbar-brand" href="#">Biblioteca Digital Universitária</a>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-    </form>
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="#adicionados">Adicionados</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#mdo">@mdo</a>
     </li>
   </ul>
 </nav>
