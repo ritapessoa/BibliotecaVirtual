@@ -12,17 +12,17 @@ Para executar o projeto em seu computador é necessário uma IDE de sua preferê
 ### 🔧 Configurando
 É necessário inicializar o wampServe para criar a conexão (sem senha) no MySQL, onde o banco de dados deve se chamar “sys”.
 Deve ser criado duas tabelas: Usuarios (que irá receber os cadastro de Login), com os seguintes parâmetros:
-*id: Int, Pk, Nn, Ai.
-*nome: varchar(100), nn.
-*email: varchar(100), nn.
-*senha: varchar(45), nn.
-*data_nascimento: date, nn.
+* id: Int, Pk, Nn, Ai.
+* nome: varchar(100), nn.
+* email: varchar(100), nn.
+* senha: varchar(45), nn.
+* data_nascimento: date, nn.
 
  E o Arquivos (que “receberá” os arquivos/livros enviados) que contém os seguintes parâmetros:
-*id: Int, Pk, Nn, Ai.
-*nome: varchar(100), nn.
-*path: varchar(100), nn.
-*data_upload: datetime.
+* id: Int, Pk, Nn, Ai.
+* nome: varchar(100), nn.
+* path: varchar(100), nn.
+* data_upload: datetime.
 
 Para conseguir visualizar a aplicação pelo Browser o código deve ficar armazenado no seguinte caminho:
 C:\wamp\www\TESTE
@@ -31,21 +31,21 @@ E dentro dessa pasta “TESTE” que deverá ser criada por vocês, também deve
 
 
 ## 🛠️ Construído com
-*HTML
-*CSS
-*PHP
-*Bootstrap
+* HTML
+* CSS
+* PHP
+* Bootstrap
 
 
 ## Implementações futuras
 Esse projeto é um trabalho em andamento, será adicionado algumas exceções no código para que ele atenda melhor aos casos de uso e será feita uma melhoria no design do sistema.
 
 ## Colaboradores
-*Rita de Cássia - ritapessoa
-*Fabiula Santos - fabiulasantos
-*Renan Joaquim - rejoaquim
-*Amarílis Selene - amarilisselene
-*Arthur Ruman - ArthurRuman
+* Rita de Cássia - ritapessoa
+* Fabiula Santos - fabiulasantos
+* Renan Joaquim - rejoaquim
+* Amarílis Selene - amarilisselene
+* Arthur Ruman - ArthurRuman
 
 
 
