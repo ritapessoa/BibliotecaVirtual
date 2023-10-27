@@ -40,7 +40,7 @@ E dentro dessa pasta “TESTE” que deverá ser criada por vocês, também deve
 ## Implementações futuras
 Esse projeto é um trabalho em andamento, será adicionado algumas exceções no código para que ele atenda melhor aos casos de uso e será feita uma melhoria no design do sistema.
 
-##Colaboradores
+## Colaboradores
 *Rita de Cássia - ritapessoa
 *Fabiula Santos - fabiulasantos
 *Renan Joaquim - rejoaquim
