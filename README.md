@@ -1,9 +1,9 @@
-##Biblioteca Virtual Universitária
+## Biblioteca Virtual Universitária
 Esse projeto é um sistema web de biblioteca digital com acesso a
 diversos trabalhos e pesquisas feitas por alunos concluintes, essa solução visa o objetivo
 de facilitar o acesso a informações educacionais.
 
-##Funcionalidades
+## Funcionalidades
 É possível realizar cadastro, efetuar login, acessar, enviar, realizar download e deletar arquivos. 
 
 ### 📋 Pré-requisitos
