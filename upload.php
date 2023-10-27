@@ -2,19 +2,6 @@
 
 include("conexao.php");
 
-if(isset($_GET['deletar'])){
-
-    $id = intval($_GET['deletar']);
-    $sql_query= $mysqli -> query("SELECT * FROM arquivos WHERE id = '$id'") or die ($mysqli-> error);
-    $arquivo = $sql_query->fetch_assoc();
-
-    if(unlink($arquivo['path'])){
-        $mysqli -> query("DELETE FROM arquivos WHERE id = '$id'") or die ($mysqli-> error);
-    }
-
-    echo"<p>Arquivo excluido com sucesso! </p>";
-
-}
 
 if(isset($_FILES) && count($_FILES) > 0){
     var_dump($_FILES);
