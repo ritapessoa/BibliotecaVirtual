@@ -5,16 +5,6 @@
 - **Renan de Andrade Joaquim**: 21500398
 - **Rita de Cássia Pessoa da Rosa**: 19506996
 
-## Sumário
-1. [Introdução](#)
-2. [Informação sobre a Empresa](#)
-3. [Diagrama de Classes](#)
-4. [Wireframes](#)
-5. [Diagrama de Casos de Uso](#)
-6. [Interessados](#)
-7. [Objetivos Funcionais](#)
-8. [Objetivos Não Funcionais](#)
-
 ## Biblioteca Virtual Universitária
 Esse projeto é um sistema web de biblioteca digital com acesso a
 diversos trabalhos e pesquisas feitas por alunos concluintes, essa solução visa o objetivo
@@ -22,9 +12,6 @@ de facilitar o acesso a informações educacionais.
 
 ## Funcionalidades
 É possível realizar cadastro, efetuar login, acessar, enviar, realizar download e deletar arquivos. 
-
-## Link - Demonstração da aplicação em funcionamento
- https://www.youtube.com/watch?v=h5UqoZuAQMo
  
 ### 📋 Pré-requisitos
 Para executar o projeto em seu computador é necessário uma IDE de sua preferência (para o projeto foi utilizado o VS Code), instalar o wampServer e configurar no navegador de sua preferência, depois deve ser instalado o MySQL Workbench 8.0.
