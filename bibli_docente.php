@@ -2,27 +2,14 @@
   include("conexao.php");
 
 
-    session_start();
-    //print_r($_SESSION);
-
-  if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
+  session_start();
+  //print_r($_SESSION);
+  if ((!isset($_SESSION['email']) || !isset($_SESSION['senha'])) || $_SESSION['email'] != 'docente@gmail.com') {
     header('Location: Login.php');
     exit();
-  }
-
-  $logado = $_SESSION['email'];
-
-  // Verificar se o email é 'gerente@gmail.com'
-  if ($_SESSION['email'] == 'gerente@gmail.com') {
-    // Redirecionar para a página do gerente
-    header('Location: bibli_gerente.php');
-    exit();
 }
-  if ($_SESSION['email'] == 'docente@gmail.com') {
-    // Redirecionar para a página do gerente
-    header('Location: bibli_docente.php');
-      exit();
-}
+
+$logado = $_SESSION['email'];
 
 
     $logado = $_SESSION['email'];
@@ -68,9 +55,7 @@
       echo "Bem vindo <u>$logado</u>";
       ?>
       </a>
-        <a class="dropdown-item" href="projetoFinal.php">Pesquisar Projetos Finais</a>
-        <a class="dropdown-item" href="projetoFinal.php">Pesquisar Avançada</a>
-        <a class="dropdown-item" href="projetoFinal.php">Referenciar autores e publicações relacionadas</a>
+        <a class="dropdown-item" href="projetoFinalg.php">Gerenciar Projetos Finais</a>
         <div role="separator" class="dropdown-divider"></div>
         <a class="dropdown-item" href="login.php">Sair</a>
 
