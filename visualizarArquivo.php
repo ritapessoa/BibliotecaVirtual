@@ -71,6 +71,7 @@ $sql_query= $mysqli -> query(  "SELECT * FROM arquivos") or die ($mysqli-> error
     <title>Document</title>
 </head>
 <body>
+    
     <h1>Lista de Livros</h1>
     <table border="1" cellpadding="10">
         <thead>
@@ -96,7 +97,7 @@ $sql_query= $mysqli -> query(  "SELECT * FROM arquivos") or die ($mysqli-> error
     ?>
     </tbody>
 </table>
-<a href="biblioteca.php">Voltar</a>
+
     
 </body>
 </html>
